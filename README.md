@@ -36,7 +36,7 @@ python run_summarization.py \
     --predict_with_generate \
     --text_column obfuscation1 \
     --summary_column original_data \
-    --learning_rate 2e-05
+    --learning_rate 5e-05
 ```
 
 #learing_rate = 1e-04 / epoch = 3.0
@@ -55,5 +55,5 @@ python run_summarization.py \
     --predict_with_generate \
     --text_column obfuscation1 \
     --summary_column original_data \
-    --learning_rate 2e-05
+    --learning_rate 1e-04
 ```
