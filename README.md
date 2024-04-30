@@ -87,7 +87,7 @@ python run_summarization.py \
     --train_file /data/kyb0314/repos/kcc/transformer/train_file.json \
     --validation_file /data/kyb0314/repos/kcc/transformer/train_file.json \
     --source_prefix "난독화 해독하기: " \
-    --output_dir /data/kyb0314/repos/kcc/transformer/model_ob1_lr1e-4_ep3 \
+    --output_dir /data/kyb0314/repos/kcc/transformer/model_ob1_lr1e-4_ep4 \
     --overwrite_output_dir \
     --per_device_train_batch_size=4 \
     --per_device_eval_batch_size=4 \
