@@ -1,6 +1,7 @@
 # kcc
 #하이퍼파라미터 서칭
 #learing_rate = 2e-05 / epoch = 3.0
+```
 python run_summarization.py \
     --model_name_or_path KETI-AIR/ke-t5-small-ko \
     --do_train \
@@ -16,8 +17,10 @@ python run_summarization.py \
     --text_column obfuscation1 \
     --summary_column original_data \
     --learning_rate 2e-05
+```
 
 #learing_rate = 5e-05 / epoch = 3.0
+```
 python run_summarization.py \
     --model_name_or_path KETI-AIR/ke-t5-small-ko \
     --do_train \
@@ -33,9 +36,10 @@ python run_summarization.py \
     --text_column obfuscation1 \
     --summary_column original_data \
     --learning_rate 2e-05
-
+```
 
 #learing_rate = 1e-04 / epoch = 3.0
+```
 python run_summarization.py \
     --model_name_or_path KETI-AIR/ke-t5-small-ko \
     --do_train \
@@ -51,3 +55,4 @@ python run_summarization.py \
     --text_column obfuscation1 \
     --summary_column original_data \
     --learning_rate 2e-05
+```
