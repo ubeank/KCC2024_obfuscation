@@ -74,7 +74,7 @@ python run_summarization.py \
     --predict_with_generate \
     --text_column obfuscation1 \
     --summary_column original_data \
-    --learning_rate 1e-04
+    --learning_rate 1e-04 \
     --num_train_epochs 2.0
 ```
 
@@ -94,7 +94,7 @@ python run_summarization.py \
     --predict_with_generate \
     --text_column obfuscation1 \
     --summary_column original_data \
-    --learning_rate 1e-04
+    --learning_rate 1e-04 \
     --num_train_epochs 4.0
 ```
 
