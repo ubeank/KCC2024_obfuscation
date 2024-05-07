@@ -1,6 +1,6 @@
 # Deciphering Obfuscated Accommodation Reviews in Korean using Language Models
 
-'''
+```
 python run_summarization.py \
     --model_name_or_path KETI-AIR/ke-t5-&{size}-ko \
     --do_train \
@@ -20,5 +20,5 @@ python run_summarization.py \
     --learning_rate 1e-04 \
     --num_train_epochs 10 \
     --save_total_limit 1
-'''
+```
 
